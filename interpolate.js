@@ -12,7 +12,6 @@ function interpolate(weights)
     {
         if(d.contains(i)) output += d.get(i) * aWeights[i];
     }
-    post(output);
     outlet(0, output);
 }
 
